@@ -5,11 +5,12 @@ author:
 build_requires:
   Capture::Tiny: 0.05
   ExtUtils::MakeMaker: 6.42
+  File::Temp: 0
   Test::More: 0.47
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.91'
+generated_by: 'Module::Install version 0.95'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,7 +23,7 @@ no_index:
 provides:
   Module::Install::CheckLib:
     file: lib/Module/Install/CheckLib.pm
-    version: 0.04
+    version: 0.06
 requires:
   Devel::CheckLib: 0.5
   Module::Install: 0.85
@@ -31,4 +32,4 @@ resources:
   homepage: http://github.com/bingos/module-install-checklib/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/module-install-checklib.git
-version: 0.04
+version: 0.06
